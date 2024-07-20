@@ -10,7 +10,11 @@ Setup Instructions
   after than : cp .env.example .env
 
 after than : php artisan key:generate
+
+
 after run : php artisan migrate
+
+
 after that : php artisan serve
 
 Visit http://localhost:8000 in your browser.
