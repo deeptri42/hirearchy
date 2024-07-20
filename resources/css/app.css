@@ -1,0 +1,41 @@
+.custom-table th,
+.custom-table td {
+    border: 1px solid #dee2e6; /* Ensures a solid border color */
+    padding: 0.75rem; /* Optional: for better padding */
+}
+
+.custom-table thead th {
+    background-color: #f8f9fa; /* Optional: a light background for header cells */
+}
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 0.5em 0;
+    padding-left: 1em;
+    position: relative;
+}
+
+li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0.5em;
+    border-left: 2px solid black;
+}
+
+li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.5em;
+    height: 0.5em;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 0 0 0 50%;
+    transform: translateY(-50%) rotate(-45deg);
+}
