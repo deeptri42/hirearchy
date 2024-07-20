@@ -5,6 +5,8 @@ Setup Instructions
    git clone https://github.com/your-username/category-hierarchy-system.git
    cd category-hierarchy-system
 
+database name in env set : cathire
+
   after than : composer install
 
   after than : cp .env.example .env
